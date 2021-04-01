@@ -16,3 +16,11 @@ The output of git status can vary widely, and it often includes helpful messages
  nothing to commit (working directory clean)
  ```
   The first status output will show the file as unstaged. The git add action will be reflected in the second git status, and the final status output will tell you that there is nothing to commit—the working directory matches the most recent commit. Some Git commands (e.g., git merge) require the working directory to be clean so that you don't accidentally overwrite changes.
+  
+ ### Initializing a Git Repository
+The **git init** command creates or initializes a new Git project, or repository. It creates a .git folder with all the tools and data necessary to maintain versions. This command only needs to be used once per project to complete the initial setup. For instance, the code block sets up the home folder as a new git repository.
+```
+$ cd /home
+$ git init
+```
+This command creates an empty Git repository - basically a .git directory with subdirectories for objects, refs/heads, refs/tags, and template files. 
