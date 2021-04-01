@@ -24,3 +24,17 @@ $ cd /home
 $ git init
 ```
 This command creates an empty Git repository - basically a .git directory with subdirectories for objects, refs/heads, refs/tags, and template files. 
+
+### Displaying Differences with Git Diff
+The **git diff filename** command will display the differences between the working directory and the staging area in one specific file. Use git diff filename before adding new content to ensure that you are making the changes you expect.
+#### Example git status command
+```
+$ git diff hello.txt
+diff --git a/hello.txt b/hello.txt
+index 557db03..980a0d5 100644
+--- a/hello.txt
++++ b/hello.txt
+@@ -1 +1 @@
+-Hello World
++Hello World!
+```
