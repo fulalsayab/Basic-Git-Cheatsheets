@@ -4,7 +4,7 @@
 The **git status** command is used within a **Git repository** to displays the state of the working directory and the staging area.
 The output of git status can vary widely, and it often includes helpful messages to direct the user to manage their repository. For example, git status will show the user the files they would commit by running git commit and the files they could commit by running git add before running git commit.
 #### Example git status command
-<ul></ul> `$ Edit example.py `
+<ul></ul> $ Edit example.py
 <ul></ul> $ git status
 <ul></ul> example.py is listed under "Changes not staged for commit"
 <ul></ul>git add example.py
